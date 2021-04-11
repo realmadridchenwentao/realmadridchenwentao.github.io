@@ -47,7 +47,8 @@
 * 全国大学生英语竞赛二等奖&emsp;&emsp;&emsp;&emsp;&emsp;2020年10月
 * 全国大学生数学竞赛三等奖&emsp;&emsp;&emsp;&emsp;&emsp;2020年11月
 * 美国大学生数学建模竞赛&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2021年2月
-* 全国大学生智能汽车竞赛创意组&emsp;&emsp;&emsp;2021年2月——至今
+* 全国大学生智能汽车竞赛创意组线上赛&emsp;&emsp;&emsp;2021年2月——4月
+* 北京邮电大学优秀共青团员&emsp;&emsp;&emsp;&emsp;&emsp;2021年5月
 
 ## 个人账号 
 * blog 地址 (附加自己博客特色，写了哪些技术文章)
