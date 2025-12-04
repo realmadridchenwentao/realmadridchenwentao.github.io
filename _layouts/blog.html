@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="blog-post">
+  <h1>{{ page.title }}</h1>
+  
+  {% if page.authors %}
+  <p class="blog-authors">
+    {% for author in page.authors %}
+      {% if forloop.last == true and forloop.length > 1 %}
+        and
+      {% endif %}
+      <a href="{{site.data.authors[author].site}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+      {% if forloop.last == false and forloop.length > 2 %}
+        ,
+      {% endif %}
+    {% endfor %}
+  </p>
+  {% endif %}
+  
+  <p class="blog-date">{{ page.date | date: "%B %d, %Y" }}</p>
+  
+  <div class="blog-content">
+    {{ content }}
+  </div>
+  
+  <div class="blog-footer">
+    <a href="/">&larr; Back to home</a>
+  </div>
+</div>
