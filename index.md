@@ -37,7 +37,7 @@ xhttp.onreadystatechange = function() {
     });
   }
 };
-xhttp.open("GET", "https://api.github.com/users/zhang677/repos", true);
+xhttp.open("GET", "https://api.github.com/users/realmadridchenwentao/repos", true);
 xhttp.send();
 </script>
 </td>
