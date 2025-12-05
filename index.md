@@ -9,6 +9,7 @@ layout: home
 </td>
 <td valign="top">
 Ph.D. Candidate<br/>
+Electrical and Computer Engineering<br/>
 Global College<br/>
 Shanghai Jiao Tong University<br/>
 <a href="mailto:wentaochen@sjtu.edu.cn">wentaochen [at] sjtu [dot] edu [dot] cn</a><br/>
