@@ -5,15 +5,14 @@ layout: home
 
 <table border="0" cellpadding="0">
 <td valign="top" style="min-width:140px;">
-<img src="/assets/mypic.jpg" width="160">
+<!-- <img src="/assets/mypic.jpg" width="160"> -->
 </td>
 <td valign="top">
 Ph.D. Candidate<br/>
-Department of Computer Science<br/>
+Global College<br/>
 Shanghai Jiao Tong University<br/>
-Office: 478 Gates<br/>
-<a href="mailto:zgh23@stanford.edu">wentaochen [at] sjtu [dot] edu [dot] cn</a><br/>
-<a href="/assets/GenghanZhang_CV.pdf">Curriculum Vitae</a>
+<a href="mailto:wentaochen@sjtu.edu.cn">wentaochen [at] sjtu [dot] edu [dot] cn</a><br/>
+<!-- <a href="/assets/cv.pdf">Curriculum Vitae</a> -->
 <div id=siteUpdate> </div>
 <script>
 const desiredRepo = "realmadridchenwentao.github.io"
@@ -43,14 +42,15 @@ xhttp.send();
 </td>
 </table>
 
+I am a Ph.D. candidate at [Global College](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My advisor is Prof. [An Zou](https://sites.gc.sjtu.edu.cn/zouan/). Previously, I worked with Prof. [Weimin Zhou](https://optics.arizona.edu/person/weimin-zhou) from [University of Arizona](https://www.arizona.edu/). I received my B.E. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023, where I fortunately worked with Prof. [Qicheng Lao](https://scholar.google.com/citations?user=cwKb6FwAAAAJ), Prof. [Kongming Liang](https://scholar.google.com/citations?user=dmlkJR4AAAAJ), and Prof. [Zhanyu Ma](https://zhanyuma.cn/).
 
-I am a computer science PhD student at Stanford University advised by Professor [Kunle Olukotun](https://engineering.stanford.edu/people/oyekunle-olukotun). I also worked with Professor [Fredrik Kjolstad](https://fredrikbk.com/) on sparse tensor algebra compilation and Professor [Azalia Mirhoseini](http://azaliamirhoseini.com/index.html) on efficient sparse large language models. 
+
+<!-- I am a computer science PhD student at Stanford University advised by Professor [Kunle Olukotun](https://engineering.stanford.edu/people/oyekunle-olukotun). I also worked with Professor [Fredrik Kjolstad](https://fredrikbk.com/) on sparse tensor algebra compilation and Professor [Azalia Mirhoseini](http://azaliamirhoseini.com/index.html) on efficient sparse large language models.  -->
 
 **Research**: My research interests lie in better programming models and systems for domain-specific architectures. I am also interested in optimizing GPU kernels for emerging applications, including sparse and recurrent neural networks.
 
-I graduated from Tsinghua University in 2023 with a bachelor degree in Eletronic Engineering. At Tsinghua, I did research at [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) on effcient sparse tensor algebra for GPU and [IDEAL Lab](https://github.com/tsinghua-ideal) on kernel architecture search.
 
-<h2 class="tableheading">Selected Publications</h2>
+<h2 class="tableheading">Publications</h2>
 
 <table border="0">
   {% for pub_keyval in site.data.publications %}
