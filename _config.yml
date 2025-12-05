@@ -1,16 +1,16 @@
 title: Wentao Chen
 author: Wentao Chen
-email: zgh23@stanford.edu
-email_show: zgh23 [at] stanford [dot] edu
+email: wentaochen@sjtu.edu.cn
+email_show: wentaochen [at] sjtu [dot] edu [dot] cn
 #description: > # this means to ignore newlines until "twitter_username:"
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 
 # social links
-twitter_username: zhang677
-github_username:  zhang677
-google_scholar: Genghan Zhang
+# twitter_username:
+github_username: realmadridchenwentao
+google_scholar: Wentao Chen
 linkedin_username: genghan-zhang
 #rss: rss
 # dribbble_username: jekyll

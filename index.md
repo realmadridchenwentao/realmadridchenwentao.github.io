@@ -45,10 +45,11 @@ xhttp.send();
 I am a Ph.D. candidate at [Global College](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My advisor is Prof. [An Zou](https://sites.gc.sjtu.edu.cn/zouan/). Previously, I worked with Prof. [Weimin Zhou](https://optics.arizona.edu/person/weimin-zhou) from [University of Arizona](https://www.arizona.edu/). I received my B.E. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023, where I fortunately worked with Prof. [Qicheng Lao](https://scholar.google.com/citations?user=cwKb6FwAAAAJ), Prof. [Kongming Liang](https://scholar.google.com/citations?user=dmlkJR4AAAAJ), and Prof. [Zhanyu Ma](https://zhanyuma.cn/).
 
 
-<!-- I am a computer science PhD student at Stanford University advised by Professor [Kunle Olukotun](https://engineering.stanford.edu/people/oyekunle-olukotun). I also worked with Professor [Fredrik Kjolstad](https://fredrikbk.com/) on sparse tensor algebra compilation and Professor [Azalia Mirhoseini](http://azaliamirhoseini.com/index.html) on efficient sparse large language models.  -->
+**Research**: My research interests lie in designing scalable and self-improving AI systems for high-performance computing, including better programming models and systems for domain-specific architectures, as well as optimizing GPU kernels for emerging applications.
 
-**Research**: My research interests lie in better programming models and systems for domain-specific architectures. I am also interested in optimizing GPU kernels for emerging applications, including sparse and recurrent neural networks.
+Previously, my research was dedicated to exploring mathematical principles of image science, explores modern AI/ML technologies, and utilizes a wide variety of computational tools to advance image formation, perception, and interpretation, including deep generative models for medical image analysis, AI/ML-based image perception and observer designs for objective assessment of image quality, as well as task-oriented image acquisition, reconstruction, and enhancement.
 
+I am always open to research collaborations. Feel free to contact me.
 
 <h2 class="tableheading">Publications</h2>
 
