@@ -51,6 +51,8 @@ Previously, my research was dedicated to exploring mathematical principles of im
 
 I am always open to research collaborations. Feel free to contact me.
 
+<h2 class="tableheading">Publications</h2>
+
 <!-- <h2 class="tableheading">Publications</h2>
 
 <table border="0">
@@ -154,6 +156,9 @@ I am always open to research collaborations. Feel free to contact me.
   {% endfor %}
 </table>
 
+ -->
 
 <h2 class="tableheading">Miscellaneous</h2>
- -->
+- An ENTJ. I love traveling and reading books.
+- A Real Madrid & DFB fan, also a railway & aviation enthusiast. 
+- My hometown is [Huainan](https://en.wikipedia.org/wiki/Huainan), a prefecture-level city in north-central Anhui province, China. It is known for its coal industry and thermal power plants. It is also considered to be the hometown and birthplace of tofu.
