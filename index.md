@@ -51,7 +51,7 @@ Previously, my research was dedicated to exploring mathematical principles of im
 
 I am always open to research collaborations. Feel free to contact me.
 
-<h2 class="tableheading">Publications</h2>
+<!-- <h2 class="tableheading">Publications</h2>
 
 <table border="0">
   {% for pub_keyval in site.data.publications %}
@@ -153,3 +153,7 @@ I am always open to research collaborations. Feel free to contact me.
     {% endfor %}
   {% endfor %}
 </table>
+
+
+<h2 class="tableheading">Miscellaneous</h2>
+ -->
