@@ -1,4 +1,0 @@
----
-layout: pub
-categories: publications
----

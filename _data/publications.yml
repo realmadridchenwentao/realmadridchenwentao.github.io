@@ -14,6 +14,20 @@ cuda-llm2025:
     - yehanma
     - anzou
 
+addgan2025:
+  title: "Ambient Denoising Diffusion Generative Adversarial Networks for Establishing Stochastic Object Models from Noisy Image Data"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Medical Imaging 2025: Image Perception, Observer Performance, and Technology Assessment, 2025 (Oral)"
+  year: 2025
+  # month: November
+  pdf: /publications/addgan2025.pdf
+  authors:
+    - wentaochen
+    - xichenxu
+    - weiminzhou
+
 # accelopt2025:
 #   title: "AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization"
 #   abstract: "<p>
