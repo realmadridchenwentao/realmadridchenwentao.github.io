@@ -19,13 +19,27 @@ addgan2025:
   abstract: "<p>
   .
   </p>"
-  venue: "Medical Imaging 2025: Image Perception, Observer Performance, and Technology Assessment, 2025 (Oral)"
+  venue: "Medical Imaging 2025: Image Perception, Observer Performance, and Technology Assessment"
   year: 2025
   # month: November
   pdf: /publications/addgan2025.pdf
   authors:
-    - wentaochen
     - xichenxu
+    - wentaochen
+    - weiminzhou
+
+task-based-pls-tv2025:
+  title: "Task-based Regularization in Penalized Least-Squares for Binary Signal Detection Tasks in Medical Image Denoising"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Medical Imaging 2025: Image Perception, Observer Performance, and Technology Assessment"
+  year: 2025
+  # month: November
+  pdf: /publications/task-based-pls-tv2025.pdf
+  authors:
+    - wentaochen
+    - tianmingxu
     - weiminzhou
 
 # accelopt2025:
