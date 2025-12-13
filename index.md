@@ -52,9 +52,8 @@ Previously, my research was dedicated to exploring mathematical principles of im
 
 I am always open to research collaborations. Feel free to contact me.
 
-<h2 class="tableheading">Publications</h2>
 
-<!-- <h2 class="tableheading">Publications</h2>
+<h2 class="tableheading">Publications</h2>
 
 <table border="0">
   {% for pub_keyval in site.data.publications %}
@@ -104,7 +103,7 @@ I am always open to research collaborations. Feel free to contact me.
 {% endfor %}
 </table>
 
-<h2 class="tableheading">Talks</h2>
+<!-- <h2 class="tableheading">Talks</h2>
 <table border="0">
 {%- for talk_keyval in site.data.talks %}
   {%- assign talk= talk_keyval[1] -%}
@@ -155,9 +154,9 @@ I am always open to research collaborations. Feel free to contact me.
       {% endif %}
     {% endfor %}
   {% endfor %}
-</table>
+</table> -->
 
- -->
+
 
 <h2 class="tableheading">Miscellaneous</h2>
 - An ENTJ. I love traveling and reading books.
