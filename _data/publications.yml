@@ -5,7 +5,6 @@ cuda-llm2025:
   </p>"
   venue: "Preprint"
   year: 2025
-  # month: November
   pdf: /publications/cuda-llm2025.pdf
   authors:
     - wentaochen
@@ -21,7 +20,6 @@ addgan2025:
   </p>"
   venue: "Medical Imaging 2025: Image Perception, Observer Performance, and Technology Assessment"
   year: 2025
-  # month: November
   pdf: /publications/addgan2025.pdf
   authors:
     - xichenxu
@@ -35,7 +33,6 @@ task-based-pls-tv2025:
   </p>"
   venue: "Medical Imaging 2025: Image Perception, Observer Performance, and Technology Assessment"
   year: 2025
-  # month: November
   pdf: /publications/task-based-pls-tv2025.pdf
   authors:
     - wentaochen
@@ -49,7 +46,6 @@ mlae2024:
   </p>"
   venue: "Preprint"
   year: 2024
-  # month: November
   pdf: /publications/mlae2024.pdf
   authors:
     - junjiewang
@@ -59,6 +55,89 @@ mlae2024:
     - xiaohuwu
     - zhouchenlin
     - qichenglao
+
+ambientpix2pix2024:
+  title: "Ambient-Pix2PixGAN for Translating Medical Images from Noisy Data"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Medical Imaging 2024: Image Perception, Observer Performance, and Technology Assessment"
+  year: 2024
+  pdf: /publications/ambientpix2pix2024.pdf
+  authors:
+    - wentaochen
+    - xichenxu
+    - jieluo
+    - weiminzhou
+
+amcyclegan2024:
+  title: "AmbientCycleGAN for Establishing Interpretable Stochastic Object Models Based on Mathematical Phantoms and Medical Imaging Measurements"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Medical Imaging 2024: Image Perception, Observer Performance, and Technology Assessment"
+  year: 2024
+  pdf: /publications/amcyclegan2024.pdf
+  authors:
+    - xichenxu
+    - wentaochen
+    - weiminzhou
+
+unsupervisedmr2pet2024:
+  title: "Unsupervised Generation of Pseudo Normal PET from MRI with Diffusion Model for Epileptic Focus Localization"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Medical Imaging 2024: Image Perception, Observer Performance, and Technology Assessment"
+  year: 2024
+  pdf: /publications/unsupervisedmr2pet2024.pdf
+  authors:
+    - wentaochen
+    - jiweili
+    - xichenxu
+    - huihang
+    - siyuyuan
+    - miaozhang
+    - tianmingxu
+    - jieluo
+    - weiminzhou
+
+c2fvl2023:
+  title: "Coarse-to-Fine Covid-19 Segmentation via Vision-Language Alignment"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  year: 2023
+  pdf: /publications/c2fvl2023.pdf
+  authors:
+    - dandanshan
+    - zihanli
+    - wentaochen
+    - qingdeli
+    - jietian
+    - qingqihong
+
+semi-wtc2022:
+  title: "Semi-WTC: A Practical Semi-supervised Framework for Attack Categorization through Weight-Task Consistency"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Preprint"
+  year: 2022
+  pdf: /publications/semi-wtc2022.pdf
+  authors:
+    - zihanli
+    - wentaochen
+    - zhiqingwei
+    - xingqiluo
+    - bingsu
+
+
+
+
+
+
 
 
 
