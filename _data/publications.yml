@@ -1,3 +1,17 @@
+ddtm2026:
+  title: "Diffusion Models with Awareness of Binary Signal Detection Tasks for Medical Image Denoising"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Medical Imaging 2026: Image Perception, Observer Performance, and Technology Assessment"
+  year: 2026
+  # pdf: /publications/ddtm2026.pdf
+  authors:
+    - yaozhizhang
+    - wentaochen
+    - weiminzhou
+    - yangliu
+
 cuda-llm2025:
   title: "CUDA-LLM: LLMs Can Write Efficient CUDA Kernels"
   abstract: "<p>
