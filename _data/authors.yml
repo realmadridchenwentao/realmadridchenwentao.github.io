@@ -112,17 +112,19 @@ tianmingxu:
 
 anzou:
   name: An Zou
-  # site:
+  site: https://sites.gc.sjtu.edu.cn/zouan/
 
 yehanma:
   name: Yehan Ma
-  # site:
+  site: https://yehancpsl.github.io/
 
 weiminzhou:
   name: Weimin Zhou
+  site: https://optics.arizona.edu/person/weimin-zhou
 
 yangliu:
   name: Yang Liu
+  site: https://gift.sjtu.edu.cn/en/faculty/40885
 
 junjiewang:
   name: Junjie Wang
@@ -138,12 +140,14 @@ xiaohuwu:
 
 zhouchenlin:
   name: Zhouchen Lin
+  site: https://zhouchenlin.github.io/
   
 qichenglao:
   name: Qicheng Lao
 
 jieluo:
   name: Jie Luo
+  site: https://bme.sjtu.edu.cn/En/FacultyDetail/40
 
 jiweili:
   name: Jiwei Li

@@ -1,3 +1,15 @@
+task-based-iacnn2026:
+  title: "Medical Image Denoising with Task-based Image-adaptive Denoising CNN"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Medical Imaging 2026: Image Perception, Observer Performance, and Technology Assessment"
+  year: 2026
+  # pdf: /publications/task-based-iacnn2026.pdf
+  authors:
+    - wentaochen
+    - weiminzhou
+
 ddtm2026:
   title: "Diffusion Models with Awareness of Binary Signal Detection Tasks for Medical Image Denoising"
   abstract: "<p>
