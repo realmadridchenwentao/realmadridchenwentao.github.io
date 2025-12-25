@@ -5,7 +5,7 @@ layout: home
 
 <table border="0" cellpadding="0">
 <td valign="top" style="min-width:140px;">
-<!-- <img src="/assets/mypic.jpg" width="160"> -->
+<img src="/assets/cwt.jpg" width="240">
 </td>
 <td valign="top">
 Ph.D. Candidate<br/>
