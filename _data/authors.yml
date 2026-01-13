@@ -1,97 +1,3 @@
-# genghan:
-#   name: Genghan Zhang
-#   site: https://zhang677.github.io/
-
-# olivia:
-#   name: Olivia Hsu
-#   site: https://cs.stanford.edu/~owhsu
-
-# fred:
-#   name: Fredrik Kjolstad
-#   site: http://fredrikbk.com
-
-# weixin:
-#   name: Weixin Liang
-#   site: https://cs.stanford.edu/~wxliang
-
-# kunle:
-#   name: Kunle Olukotun
-#   site: https://engineering.stanford.edu/people/oyekunle-olukotun
-
-# yuetong:
-#   name: Yuetong Zhao
-
-# yanting:
-#   name: Yanting Tao
-
-# zhongming:
-#   name: Zhongming Yu
-#   site: https://fishmingyu.github.io/
-
-# guohao:
-#   name: Guohao Dai
-#   site: https://dai.sjtu.edu.cn/pepledetail.html?id=218
-
-# sitao:
-#   name: Sitao Huang
-#   site: https://sitaohuang.com/
-
-# yuan:
-#   name: Yuan Wen
-#   site: https://scholar.google.com/citations?user=8CHUcJEAAAAJ&hl=en&oi=sra
-
-# pavlos:
-#   name: Pavlos Petoumenos
-#   site: https://personalpages.manchester.ac.uk/staff/pavlos.petoumenos/
-
-# yu:
-#   name: Yu Wang
-#   site: https://nicsefc.ee.tsinghua.edu.cn/people/YuWang
-
-# donghyun:
-#   name: Donghyun Lee
-#   site: https://scholar.google.com/citations?user=JVsCSUoAAAAJ&hl=en
-
-# jeyong:
-#   name: Jeyong Lee
-#   site: https://scholar.google.com/citations?user=r_XSRysAAAAJ&hl=en
-
-# mo:
-#   name: Mo Tiwari
-#   site: https://motiwari.com/
-
-# azalia:
-#   name: Azalia Mirhoseini
-#   site: http://azaliamirhoseini.com/
-
-# shaowei:
-#   name: Shaowei Zhu
-#   site: https://www.linkedin.com/in/shaowei-zhu/
-
-# anjiang:
-#   name: Anjiang Wei
-#   site: https://cs.stanford.edu/~anjiang/
-
-# zhenyu:
-#   name: Zhenyu Song
-#   site: https://sunnyszy.github.io/
-
-# allen:
-#   name: Allen Nie
-#   site: https://anie.me/about
-
-# zhen:
-#   name: Zhen Jia
-#   site: https://www.linkedin.com/in/zhen-jia-7845a387/
-
-# nandita:
-#   name: Nandita Vijaykumar
-#   site: https://www.cs.toronto.edu/~nandita/
-
-# yida:
-#   name: Yida Wang
-#   site: https://yidawang.org/
-
 wentaochen:
   name: Wentao Chen
 
@@ -200,3 +106,13 @@ huali:
 
 mahsa:
   name: Mahsa Eslami
+
+boom:
+  name: Chotiwit Rungrueangwutthinon
+
+xingzhe:
+  name: Xingzhe Chai
+
+zhixing:
+  name: Zhixing Ren
+
