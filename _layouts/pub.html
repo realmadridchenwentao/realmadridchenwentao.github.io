@@ -63,7 +63,7 @@ tags: publication
 {%- endif %},
   title={ {{- pub.title -}} },
   author={
-{%- for author in pub.authors -%}{%- if author == "genghan" -%}{{ site.data.authors[author].name }}{%- else -%}{{ site.data.authors[author].name }}{%- endif -%}{% if forloop.last == false and forloop.length > 1 %} and {% endif %}
+{%- for author in pub.authors -%}{%- if author == "wentaochen" -%}{{ site.data.authors[author].name }}{%- else -%}{{ site.data.authors[author].name }}{%- endif -%}{% if forloop.last == false and forloop.length > 1 %} and {% endif %}
 {%- endfor -%}
 },
   journal={ {{- pub.venue -}} },

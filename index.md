@@ -65,7 +65,7 @@ I am always open to research collaborations. Feel free to contact me.
           {%- if forloop.last == true and forloop.length > 1 %}
             and
           {%- endif %}
-          {%- if author == "genghan" %}
+          {%- if author == "wentaochen" %}
             <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
           {%- else %}
             <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
