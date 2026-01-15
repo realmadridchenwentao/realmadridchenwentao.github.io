@@ -20,6 +20,28 @@ tags: publication
   <br/>
 
   <div class="post-content">
+    <h2>Authors</h2>
+    <p>
+      {%- for author in pub.authors -%}
+        {%- if forloop.last == true and forloop.length > 1 -%}
+          and
+        {%- endif -%}
+        {%- if author == "wentaochen" -%}
+          <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
+          {%- if pub.co_first_authors and pub.co_first_authors contains author -%}<sup>†</sup>{%- endif -%}
+        {%- else -%}
+          <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+          {%- if pub.co_first_authors and pub.co_first_authors contains author -%}<sup>†</sup>{%- endif -%}
+        {%- endif -%}
+        {%- if forloop.last == false and forloop.length > 2 -%}
+          ,
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if pub.co_first_authors -%}
+        <br/><span style="font-size: 0.9em; color: #666">† co-first author</span>
+      {%- endif -%}
+    </p>
+
     <h2>Abstract</h2>
     <p>{{ pub.abstract }}</p>
 
@@ -82,3 +104,83 @@ tags: publication
 
   </div>
 </article>
+
+<!-- <article class="post">
+  {%- assign pub_key =  page.path | remove: ".md" | remove: "pub_md/" -%}
+  {%- assign pub     =  site.data.publications[pub_key] -%}
+
+  <header class="post-header">
+    <h1 class="post-title">{{ pub.title | escape }}</h1>
+  </header>
+
+  {{pub.venue}}, {{pub.month}} {{pub.year}}
+  {% if pub.award %}
+    <br/>
+    <span style="color:#0096FF"><b>{{ pub.award }}</b></span>
+  {%- endif -%}
+  <br/>
+  <br/>
+
+  <div class="post-content">
+    <h2>Abstract</h2>
+    <p>{{ pub.abstract }}</p>
+
+    {% if pub.url %}
+    <h2>Article</h2>
+    <p><a href="{{ pub.url }}">Article URL</a></p>
+    {%- endif -%} 
+
+    {% if pub.blog %}
+    <h2>Blog</h2>
+    <p><a href="{{ pub.blog }}">Blog URL</a></p>
+    {%- endif -%} 
+
+    {% if pub.pdf %}
+    <h2>Article</h2>
+    <p><a href="{{ pub.pdf }}"><img src="/assets/PDF_icon.svg" width=64 alt= "pdf"></a></p>
+
+    {%- endif -%} 
+
+    {% if pub.appendix %}
+    <h2>Appendix</h2>
+    <p><a href="{{ pub.appendix }}"><img src="/assets/PDF_icon.svg" width=64 alt="pdf"/></a></p>
+    {%- endif -%} 
+
+    {%- if pub.embeddedmovie -%}
+    <h2>Movie</h2>
+    {{- pub.embeddedmovie -}}
+    {%- endif -%} 
+
+    <h2>BibTeX</h2>
+    <code>
+      <pre>
+    {%- if pub.bibtex -%}
+    {{- pub.bibtex -}}
+    {%- else -%}
+@article{
+{{- pub.authors[0] -}}
+{{- pub.year -}}
+{%- if pub.tag -%}
+{{- pub.tag -}}
+{%- endif %},
+  title={ {{- pub.title -}} },
+  author={
+{%- for author in pub.authors -%}{%- if author == "wentaochen" -%}{{ site.data.authors[author].name }}{%- else -%}{{ site.data.authors[author].name }}{%- endif -%}{% if forloop.last == false and forloop.length > 1 %} and {% endif %}
+{%- endfor -%}
+},
+  journal={ {{- pub.venue -}} },
+  {%- if pub.volume %}
+  volume={ {{- pub.volume -}} },
+  {%- endif -%}
+  {%- if pub.issue %}
+  issue={ {{- pub.issue -}} },
+  {%- endif %}
+  year={ {{- pub.year -}} },
+  month={ {{- pub.month -}} }
+}
+    {%- endif -%}
+      </pre>
+    </code>
+
+  </div>
+</article> -->

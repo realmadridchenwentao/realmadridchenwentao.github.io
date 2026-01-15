@@ -81,6 +81,9 @@ mlae2024:
     - xiaohuwu
     - zhouchenlin
     - qichenglao
+  co_first_authors:
+    - junjiewang
+    - guangjinyang
 
 ambientpix2pix2024:
   title: "Ambient-Pix2PixGAN for Translating Medical Images from Noisy Data"

@@ -46,7 +46,7 @@ xhttp.send();
 I am a Ph.D. candidate at [Global College](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My advisor is Prof. [An Zou](https://sites.gc.sjtu.edu.cn/zouan/). Previously, I worked with Prof. [Weimin Zhou](https://optics.arizona.edu/person/weimin-zhou) from [University of Arizona](https://www.arizona.edu/). I received my B.E. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023, where I fortunately worked with Prof. [Qicheng Lao](https://scholar.google.com/citations?user=cwKb6FwAAAAJ), Prof. [Kongming Liang](https://scholar.google.com/citations?user=dmlkJR4AAAAJ), and Prof. [Zhanyu Ma](https://zhanyuma.cn/).
 
 
-**Research**: My research interests lie in designing scalable and self-improving AI systems for high-performance computing, including better programming models and systems for domain-specific architectures, as well as optimizing GPU kernels for emerging applications. [[Awesome-LLM4Kernel](https://github.com/fanqiNO1/Awesome-LLM4Kernel)] [[KernelPilot](https://www.kernelpilot.com/)]
+**Research**: My research interests lie in designing scalable and self-improving AI systems for high-performance computing, including better programming models and systems for domain-specific architectures, as well as optimizing GPU kernels for emerging applications. [[Awesome-LLM4Kernel](https://github.com/fanqiNO1/Awesome-LLM4Kernel)] [[KernelPilot](https://www.kernelpilot.com/)] [[CUDABench]()]
 
 Previously, my research was dedicated to exploring mathematical principles of image science, explores modern AI/ML technologies, and utilizes a wide variety of computational tools to advance image formation, perception, and interpretation, including deep generative models for medical image analysis, AI/ML-based image perception and observer designs for objective assessment of image quality, as well as task-oriented image acquisition, reconstruction, and enhancement.
 
@@ -67,13 +67,18 @@ I am always open to research collaborations. Feel free to contact me.
           {%- endif %}
           {%- if author == "wentaochen" %}
             <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
+            {%- if pub.co_first_authors and pub.co_first_authors contains author -%}<sup>†</sup>{%- endif -%}
           {%- else %}
             <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+            {%- if pub.co_first_authors and pub.co_first_authors contains author -%}<sup>†</sup>{%- endif -%}
           {%- endif -%}
           {%- if forloop.last == false and forloop.length > 2 -%}
             ,
           {%- endif %}
         {%- endfor -%}<br/>
+        {%- if pub.co_first_authors -%}
+        <span style="font-size: 0.9em; color: #666">† co-first author</span><br/>
+        {%- endif -%}
         <i>{{ pub.venue }}
         {%- if pub.venuenote %}
         ({{ pub.venuenote }})
@@ -157,6 +162,7 @@ I am always open to research collaborations. Feel free to contact me.
 </table> -->
 
 <h2 class="tableheading">Teaching</h2>
+At Shanghai Jiao Tong University:
 - ECE6501G, Principles of Medical Imaging, Graduate Course TA (Spring 2024).
 - ECE7609J, Principles of Imaging Science, Graduate Course TA (Summer 2023).
 - VE445/ECE4450J, Introduction to Machine Learning, Undergraduate Course TA (Fall 2022, Fall 2023).
