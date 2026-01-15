@@ -88,7 +88,7 @@ mlae2024:
 ambientpix2pix2024:
   title: "Ambient-Pix2PixGAN for Translating Medical Images from Noisy Data"
   abstract: "<p>
-  .
+  Image-to-image translation is a common task in computer vision and has been rapidly increasing the impact on the field of medical imaging. Deep learning-based methods that employ conditional generative adversarial networks (cGANs), such as Pix2PixGAN, have been extensively explored to perform image-to-image translation tasks. However, when noisy medical image data are considered, such methods cannot be directly applied to produce clean images. Recently, an augmented GAN architecture named AmbientGAN has been proposed that can be trained on noisy measurement data to synthesize high-quality clean medical images. Inspired by AmbientGAN, in this work, we propose a new cGAN architecture, Ambient-Pix2PixGAN, for performing medical image-to-image translation tasks by use of noisy measurement data. Numerical studies that consider MRI-to-PET translation are conducted. Both traditional image quality metrics and task-based image quality metrics are employed to assess the proposed Ambient-Pix2PixGAN. It is demonstrated that our proposed Ambient-Pix2PixGAN can be successfully trained on noisy measurement data to produce high-quality translated images in target imaging modality.
   </p>"
   venue: "Medical Imaging 2024: Image Perception, Observer Performance, and Technology Assessment"
   year: 2024
@@ -102,7 +102,7 @@ ambientpix2pix2024:
 amcyclegan2024:
   title: "AmbientCycleGAN for Establishing Interpretable Stochastic Object Models Based on Mathematical Phantoms and Medical Imaging Measurements"
   abstract: "<p>
-  .
+  Medical imaging systems that are designed for producing diagnostically informative images should be objectively assessed via task-based measures of image quality (IQ). Ideally, computation of task-based measures of IQ needs to account for all sources of randomness in the measurement data, including the variability in the ensemble of objects to be imaged. To address this need, stochastic object models (SOMs) that can generate an ensemble of synthesized objects or phantoms can be employed. Various mathematical SOMs or phantoms were developed that can interpretably synthesize objects, such as lumpy object models and parameterized torso phantoms. However, such SOMs that are purely mathematically defined may not be able to comprehensively capture realistic object variations. To establish realistic SOMs, it is desirable to use experimental data. An augmented generative adversarial network (GAN), AmbientGAN, was recently proposed for establishing SOMs from medical imaging measurements. However, it remains unclear to which extent the AmbientGAN-produced objects can be interpretably controlled. This work introduces a novel approach called AmbientCycleGAN that translates mathematical SOMs to realistic SOMs by use of noisy measurement data. Numerical studies that consider clustered lumpy background (CLB) models and real mammograms are conducted. It is demonstrated that our proposed method can stably establish SOMs based on mathematical models and noisy measurement data. Moreover, the ability of the proposed AmbientCycleGAN to interpretably control image features in the synthesized objects is investigated.
   </p>"
   venue: "Medical Imaging 2024: Image Perception, Observer Performance, and Technology Assessment"
   year: 2024
@@ -134,7 +134,7 @@ unsupervisedmr2pet2024:
 c2fvl2023:
   title: "Coarse-to-Fine Covid-19 Segmentation via Vision-Language Alignment"
   abstract: "<p>
-  .
+  Segmentation of COVID-19 lesions can assist physicians in better diagnosis and treatment of COVID-19. However, there are few relevant studies due to the lack of detailed information and high-quality annotation in the COVID-19 dataset. To solve the above problem, we propose C2FVL, a Coarse-to-Fine segmentation framework via Vision-Language alignment to merge text information containing the number of lesions and specific locations of image information. Introducing text information allows the network to achieve better prediction results on challenging datasets. We conduct extensive experiments on two COVID-19 datasets, including chest X-ray and CT, and the results demonstrate that our proposed method outperforms other state-of-the-art segmentation methods.
   </p>"
   venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
   year: 2023
@@ -153,7 +153,7 @@ c2fvl2023:
 semi-wtc2022:
   title: "Semi-WTC: A Practical Semi-supervised Framework for Attack Categorization through Weight-Task Consistency"
   abstract: "<p>
-  .
+  Supervised learning has been widely used for attack categorization, requiring high-quality data and labels. However, the data is often imbalanced and it is difficult to obtain sufficient annotations. Moreover, supervised models are subject to real-world deployment issues, such as defending against unseen artificial attacks. To tackle the challenges, we propose a semi-supervised fine-grained attack categorization framework consisting of an encoder and a two-branch structure and this framework can be generalized to different supervised models. The multilayer perceptron with residual connection is used as the encoder to extract features and reduce the complexity. The Recurrent Prototype Module (RPM) is proposed to train the encoder effectively in a semi-supervised manner. To alleviate the data imbalance problem, we introduce the Weight-Task Consistency (WTC) into the iterative process of RPM by assigning larger weights to classes with fewer samples in the loss function. In addition, to cope with new attacks in real-world deployment, we propose an Active Adaption Resampling (AAR) method, which can better discover the distribution of unseen sample data and adapt the parameters of encoder. Experimental results show that our model outperforms the state-of-the-art semi-supervised attack detection methods with a 3% improvement in classification accuracy and a 90% reduction in training time.
   </p>"
   venue: "Preprint"
   year: 2022
