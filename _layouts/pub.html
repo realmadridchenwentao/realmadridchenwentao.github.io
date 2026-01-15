@@ -24,7 +24,7 @@ tags: publication
     <p>
       {%- for author in pub.authors -%}
         {%- if forloop.last == true and forloop.length > 1 -%}
-          and
+          &nbsp;and&nbsp;
         {%- endif -%}
         {%- if author == "wentaochen" -%}
           <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
@@ -34,7 +34,7 @@ tags: publication
           {%- if pub.co_first_authors and pub.co_first_authors contains author -%}<sup>†</sup>{%- endif -%}
         {%- endif -%}
         {%- if forloop.last == false and forloop.length > 2 -%}
-          , 
+          ,&nbsp;
         {%- endif -%}
       {%- endfor -%}
       {%- if pub.co_first_authors -%}
