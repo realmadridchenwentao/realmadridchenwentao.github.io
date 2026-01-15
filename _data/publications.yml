@@ -146,6 +146,9 @@ c2fvl2023:
     - qingdeli
     - jietian
     - qingqihong
+  co_first_authors:
+    - dandanshan
+    - zihanli
 
 semi-wtc2022:
   title: "Semi-WTC: A Practical Semi-supervised Framework for Attack Categorization through Weight-Task Consistency"
@@ -161,6 +164,9 @@ semi-wtc2022:
     - zhiqingwei
     - xingqiluo
     - bingsu
+  co_first_authors:
+    - zihanli
+    - wentaochen
 
 
 

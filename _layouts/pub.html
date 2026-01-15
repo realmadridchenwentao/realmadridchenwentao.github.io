@@ -34,7 +34,7 @@ tags: publication
           {%- if pub.co_first_authors and pub.co_first_authors contains author -%}<sup>†</sup>{%- endif -%}
         {%- endif -%}
         {%- if forloop.last == false and forloop.length > 2 -%}
-          ,
+          , 
         {%- endif -%}
       {%- endfor -%}
       {%- if pub.co_first_authors -%}
