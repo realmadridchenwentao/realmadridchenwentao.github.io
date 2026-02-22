@@ -1,11 +1,30 @@
+# cudabench2026:
+#   title: "CUDABench: Benchmarking LLMs for Text-to-CUDA Generation"
+#   abstract: "<p>
+#   .
+#   </p>"
+#   venue: "Preprint"
+#   year: 2026
+#   # pdf: /publications/cudabench2026.pdf
+#   authors:
+#     - jiacezhu
+#     - wentaochen
+#     - qifan
+#     - zhixingren
+#     - junyingwu
+#     - xingzhe
+#     - boom
+#     - yehanma
+#     - anzou
+
 task-based-iacnn2026:
   title: "Medical Image Denoising with Task-based Image-adaptive Denoising CNN"
   abstract: "<p>
-  .
+  Image denoising is a fundamental inverse problem in medical imaging. Traditional sparsity-promoting approaches, such as penalized least-squares (PLS) with total variation (TV), have been widely employed to address such inverse problems. However, the handcrafted regularizers used in these methods cannot fully model complex image statistics, often leading to suboptimal image quality (IQ) performance. Supervised learning-based methods employing convolutional neural networks (CNNs) have emerged as powerful denoising approaches that can capture complex image statistics and improve IQ. However, CNNs trained with loss functions based solely on traditional IQ measures may remove subtle image details that are critical for task performance (e.g., tumor detection accuracy), resulting in degraded task-based IQ measures. In this work, we propose a novel task-based image-adaptive strategy to fine-tune the pre-trained CNN denoiser for each individual image by further promoting data fidelity while penalizing deviations in test statistics of a model observer for classification tasks. Numerical studies involving a stochastic binary texture model are conducted, and it is demonstrated that the proposed method achieves substantial improvements compared to previous medical image denoising methods in both traditional and task-based IQ metrics.
   </p>"
   venue: "Medical Imaging 2026: Image Perception, Observer Performance, and Technology Assessment"
   year: 2026
-  # pdf: /publications/task-based-iacnn2026.pdf
+  pdf: /publications/task-based-iacnn2026.pdf
   authors:
     - wentaochen
     - weiminzhou
@@ -13,11 +32,11 @@ task-based-iacnn2026:
 ddtm2026:
   title: "Diffusion Models with Awareness of Binary Signal Detection Tasks for Medical Image Denoising"
   abstract: "<p>
-  .
+  It is widely recognized that the evaluation and optimization of medical imaging system performance should be guided by task-based measures of image quality (IQ). We propose a task-aware diffusion model (TADM), a sampling-based method that incorporates channelized model observers, to denoise medical images for binary signal detection tasks. Our study employs Partial Least Squares (PLS) channels and uses singular value decomposition (SVD) to decompose the image into task-dense and task-sparse components. During the denoising process, TADMs simultaneously reduce noise in both task-dense and task-sparse components via corresponding posterior sampling. It is demonstrated that the proposed TADMs outperform Denoising Diffusion Restoration Models (DDRMs) in both physical IQ metrics (e.g. PSNR and FID) and task-based IQ metrics across a variety of image noise levels and datasets.
   </p>"
   venue: "Medical Imaging 2026: Image Perception, Observer Performance, and Technology Assessment"
   year: 2026
-  # pdf: /publications/ddtm2026.pdf
+  pdf: /publications/ddtm2026.pdf
   authors:
     - yaozhizhang
     - wentaochen
