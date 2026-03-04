@@ -1,7 +1,7 @@
 cudabench2026:
   title: "CUDABench: Benchmarking LLMs for Text-to-CUDA Generation"
   abstract: "<p>
-  Recent studies have demonstrated the potential of Large Language Models (LLMs) in generating GPU Kernels. Current benchmarks focus on the translation of high-level languages into CUDA, overlooking the more general and challenging task of text-to-CUDA generation. Furthermore, given the hardware-specific and performance-critical features of GPU programming, accurately assessing the performance of LLM-generated GPU programs is nontrivial. In this work, we introduce CUDABench, a comprehensive benchmark designed to evaluate the text-to-CUDA capabilities of LLMs. First, we construct CUDABench-Set, which covers Breadth-Depth-Difficulty evaluation space in diverse application domains, including artificial intelligence, scientific computing, and data analytics, etc. Furthermore, we propose CUDABench-Score and Generative Verification Pipeline that assess (1) compilation correctness, (2) functional consistency through execution-based verification, and (3) a novel roofline-based metric, Performance-Score. Benchmarking state-of-the-art LLMs reveals insightful findings and challenges of text-to-CUDA, such as a notable mismatch between high compilation success rates and low functional correctness, a lack of domain-specific algorithmic knowledge, and suboptimal utilization of GPU hardware resources. Our benchmark is available at [https://github.com/CUDA-Bench/CUDABench](https://github.com/CUDA-Bench/CUDABench).
+  Recent studies have demonstrated the potential of Large Language Models (LLMs) in generating GPU Kernels. Current benchmarks focus on the translation of high-level languages into CUDA, overlooking the more general and challenging task of text-to-CUDA generation. Furthermore, given the hardware-specific and performance-critical features of GPU programming, accurately assessing the performance of LLM-generated GPU programs is nontrivial. In this work, we introduce CUDABench, a comprehensive benchmark designed to evaluate the text-to-CUDA capabilities of LLMs. First, we construct CUDABench-Set, which covers Breadth-Depth-Difficulty evaluation space in diverse application domains, including artificial intelligence, scientific computing, and data analytics, etc. Furthermore, we propose CUDABench-Score and Generative Verification Pipeline that assess (1) compilation correctness, (2) functional consistency through execution-based verification, and (3) a novel roofline-based metric, Performance-Score. Benchmarking state-of-the-art LLMs reveals insightful findings and challenges of text-to-CUDA, such as a notable mismatch between high compilation success rates and low functional correctness, a lack of domain-specific algorithmic knowledge, and suboptimal utilization of GPU hardware resources. Our benchmark is available at https://github.com/CUDA-Bench/CUDABench.
   </p>"
   venue: "Preprint"
   year: 2026
@@ -186,8 +186,6 @@ semi-wtc2022:
   co_first_authors:
     - zihanli
     - wentaochen
-
-
 
 
 
