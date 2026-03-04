@@ -43,7 +43,7 @@ xhttp.send();
 </td>
 </table>
 
-I am a Ph.D. candidate at [Global College](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My advisor is Prof. [An Zou](https://sites.gc.sjtu.edu.cn/zouan/). Previously, I worked with Prof. [Weimin Zhou](https://optics.arizona.edu/person/weimin-zhou) from [University of Arizona](https://www.arizona.edu/). I received my B.E. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023, where I fortunately worked with Prof. [Qicheng Lao](https://scholar.google.com/citations?user=cwKb6FwAAAAJ), Prof. [Kongming Liang](https://scholar.google.com/citations?user=dmlkJR4AAAAJ), and Prof. [Zhanyu Ma](https://zhanyuma.cn/).
+I am a Ph.D. candidate at [Global College](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My advisor is Prof. [An Zou](https://sites.gc.sjtu.edu.cn/zouan/). Previously, I worked with Prof. [Weimin Zhou](https://optics.arizona.edu/person/weimin-zhou) from [University of Arizona](https://www.arizona.edu/). I received my B.E. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023.
 
 
 **Research**: My research interests lie in designing scalable and self-improving AI systems for high-performance computing, including better programming models and systems for domain-specific architectures, as well as optimizing GPU kernels for emerging applications. [[Awesome-LLM4Kernel](https://github.com/fanqiNO1/Awesome-LLM4Kernel)] [[KernelPilot](https://www.kernelpilot.com/)] [[CUDABench](https://github.com/CUDA-Bench/CUDABench)]
