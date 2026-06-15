@@ -12,6 +12,7 @@ Ph.D. Candidate<br/>
 Electrical and Computer Engineering<br/>
 Global College<br/>
 Shanghai Jiao Tong University<br/>
+Shanghai, 200240, China<br/>
 <a href="mailto:wentaochen@sjtu.edu.cn">wentaochen [at] sjtu [dot] edu [dot] cn</a><br/>
 <!-- <a href="/assets/cv.pdf">Curriculum Vitae</a> -->
 <div id=siteUpdate> </div>
@@ -43,15 +44,13 @@ xhttp.send();
 </td>
 </table>
 
-I am a Ph.D. candidate at [Global College](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My advisor is Prof. [An Zou](https://sites.gc.sjtu.edu.cn/zouan/). Previously, I worked with Prof. [Weimin Zhou](https://optics.arizona.edu/person/weimin-zhou) from [University of Arizona](https://www.arizona.edu/). I received my B.E. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023.
+I am a Ph.D. candidate at [Global College](https://www.ji.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My advisor is Prof. [An Zou](https://sites.gc.sjtu.edu.cn/zouan/). I'm also a research intern at [Biren Tech](https://www.birentech.com/). Previously, I worked with Prof. [Weimin Zhou](https://optics.arizona.edu/person/weimin-zhou) from [University of Arizona](https://www.arizona.edu/). I received my B.E. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023.
 
+**Research**: My research interests lie in designing scalable and self-improving AI systems for high-performance computing, including better programming models and systems for domain-specific architectures, as well as optimizing GPU kernels for emerging applications. [[Awesome-LLM4Kernel](https://github.com/realmadridchenwentao/Awesome-LLM4Kernel)] [[KernelPilot](https://www.kernelpilot.com/)] [[CUDABench](https://github.com/CUDA-Bench/CUDABench)]
 
-**Research**: My research interests lie in designing scalable and self-improving AI systems for high-performance computing, including better programming models and systems for domain-specific architectures, as well as optimizing GPU kernels for emerging applications. [[Awesome-LLM4Kernel](https://github.com/fanqiNO1/Awesome-LLM4Kernel)] [[KernelPilot](https://www.kernelpilot.com/)] [[CUDABench](https://github.com/CUDA-Bench/CUDABench)]
-
-Previously, my research was dedicated to exploring mathematical principles of image science, explores modern AI/ML technologies, and utilizes a wide variety of computational tools to advance image formation, perception, and interpretation, including deep generative models for medical image analysis, AI/ML-based image perception and observer designs for objective assessment of image quality, as well as task-oriented image acquisition, reconstruction, and enhancement.
+I'm also interested in exploring mathematical principles of image science, explores modern AI/ML technologies, and utilizes a wide variety of computational tools to advance image formation, perception, and interpretation, including deep generative models for medical image analysis, AI/ML-based image perception and observer designs for objective assessment of image quality, as well as task-oriented image acquisition, reconstruction, and enhancement.
 
 I am always open to research collaborations. Feel free to contact me.
-
 
 <h2 class="tableheading">Publications</h2>
 

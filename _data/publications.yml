@@ -1,3 +1,20 @@
+cuset2026:
+  title: "From Tokens to Regions: CUDA-Sensitive Instruction Tuning for GPU Kernel Generation"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "Preprint"
+  year: 2026
+  # pdf: /publications/cuset2026.pdf
+  authors:
+    - wentaochen
+    - jiacezhu
+    - xingzhe
+    - zengqu
+    - qiaolingxiao
+    - liuchengduan
+    - anzou
+
 cudabench2026:
   title: "CUDABench: Benchmarking LLMs for Text-to-CUDA Generation"
   abstract: "<p>
