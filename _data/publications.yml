@@ -3,7 +3,7 @@ cuset2026:
   abstract: "<p>
   .
   </p>"
-  venue: "Preprint"
+  venue: "Findings of EMNLP"
   year: 2026
   pdf: /publications/cuset2026.pdf
   authors:
@@ -14,6 +14,26 @@ cuset2026:
     - qiaolingxiao
     - liuchengduan
     - anzou
+
+mlae2024:
+  title: "MLAE: Masked LoRA Experts for Parameter-Efficient Fine-Tuning"
+  abstract: "<p>
+  .
+  </p>"
+  venue: "IEEE Transactions on Image Processing"
+  year: 2026
+  pdf: /publications/mlae2024.pdf
+  authors:
+    - junjiewang
+    - guangjinyang
+    - wentaochen
+    - huahuiyi
+    - xiaohuwu
+    - zhouchenlin
+    - qichenglao
+  co_first_authors:
+    - junjiewang
+    - guangjinyang
 
 cudabench2026:
   title: "CUDABench: Benchmarking LLMs for Text-to-CUDA Generation"
@@ -100,26 +120,6 @@ task-based-pls-tv2025:
     - wentaochen
     - tianmingxu
     - weiminzhou
-
-mlae2024:
-  title: "MLAE: Masked LoRA Experts for Parameter-Efficient Fine-Tuning"
-  abstract: "<p>
-  .
-  </p>"
-  venue: "Preprint"
-  year: 2024
-  pdf: /publications/mlae2024.pdf
-  authors:
-    - junjiewang
-    - guangjinyang
-    - wentaochen
-    - huahuiyi
-    - xiaohuwu
-    - zhouchenlin
-    - qichenglao
-  co_first_authors:
-    - junjiewang
-    - guangjinyang
 
 ambientpix2pix2024:
   title: "Ambient-Pix2PixGAN for Translating Medical Images from Noisy Data"
